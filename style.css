@@ -14,6 +14,11 @@ body {
 i {
     pointer-events: none;
 }
+.title {
+    transform: translateX(35rem);
+    font-weight: bold;
+    padding-bottom: 10px;
+}
 .snare-pad, .kick-pad, .hi-hat-pad, .clap-pad {
     width: 5rem;
     height: 5rem;
@@ -53,7 +58,6 @@ i {
 }
 .music-sequencer {
     display: flex;
-    height: 100vh;
     justify-content: center;
     align-items: center;
     flex-direction: column;
